@@ -9,23 +9,16 @@ namespace pr1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите число: ");
-
-            string possibleNumber = Console.ReadLine();
+            BadClass bad = new BadClass();
 
             try
             {
-                int number = Int32.Parse(possibleNumber);
+                bad.BadMethod();
             }
-            catch(FormatException fx)
-            {
-                Console.WriteLine(fx.Message);
-            }
-            catch (Exception ex)
+            catch (NotImplementedException ex) when (bad!=null)
             {
                 Console.WriteLine(ex.Message);
             }
-
 
             Console.ReadLine();
         }

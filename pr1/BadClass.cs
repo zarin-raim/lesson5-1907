@@ -5,7 +5,11 @@ using System.Text;
 
 namespace pr1
 {
-    class BadClass
+    public class BadClass
     {
+        public void BadMethod()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
