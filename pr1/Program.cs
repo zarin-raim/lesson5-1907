@@ -9,6 +9,25 @@ namespace pr1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите число: ");
+
+            string possibleNumber = Console.ReadLine();
+
+            try
+            {
+                int number = Int32.Parse(possibleNumber);
+            }
+            catch(FormatException fx)
+            {
+                Console.WriteLine(fx.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+
+            Console.ReadLine();
         }
     }
 }
