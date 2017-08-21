@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr1", "pr1\pr1.csproj", "{A12EE6AC-C72E-4403-8C96-717FBADFE0C1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "practicalwork", "practicalwork", "{9F264F0D-C0C5-43E5-8468-635F748C93E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr2", "pr2\pr2.csproj", "{F49BCE12-BA93-4B5A-A886-3F2380B9F07A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr1", "practicalwork\pr1\pr1.csproj", "{A12EE6AC-C72E-4403-8C96-717FBADFE0C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr3", "pr3\pr3.csproj", "{DE045101-4BA7-4FC7-A013-15B624ABD3DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr2", "practicalwork\pr2\pr2.csproj", "{F49BCE12-BA93-4B5A-A886-3F2380B9F07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr3", "practicalwork\pr3\pr3.csproj", "{DE045101-4BA7-4FC7-A013-15B624ABD3DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A12EE6AC-C72E-4403-8C96-717FBADFE0C1} = {9F264F0D-C0C5-43E5-8468-635F748C93E4}
+		{F49BCE12-BA93-4B5A-A886-3F2380B9F07A} = {9F264F0D-C0C5-43E5-8468-635F748C93E4}
+		{DE045101-4BA7-4FC7-A013-15B624ABD3DD} = {9F264F0D-C0C5-43E5-8468-635F748C93E4}
 	EndGlobalSection
 EndGlobal
