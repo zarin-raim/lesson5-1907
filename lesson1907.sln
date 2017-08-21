@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pr3", "practicalwork\pr3\pr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "homework", "homework", "{1C518C9B-AEEF-4EC7-BA2F-268768F0B6C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw1", "hw1\hw1.csproj", "{08E264D1-1F15-4FA9-B4B7-CAF47FBCBC2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw1", "homework\hw1\hw1.csproj", "{08E264D1-1F15-4FA9-B4B7-CAF47FBCBC2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw2", "hw2\hw2.csproj", "{3550EDB8-42CC-406D-88E3-7E035EEB97CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw2", "homework\hw2\hw2.csproj", "{3550EDB8-42CC-406D-88E3-7E035EEB97CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
